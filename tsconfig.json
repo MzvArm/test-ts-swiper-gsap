@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es6",
+    "allowJs": true,
+    "skipLibCheck": true
+  },
+  // "files": ["src/index.ts"],
+  "inсlude": ["src"],
+  "exclude": [
+      "node_modules",
+      "webpack.config.js" 
+    ]
+}
